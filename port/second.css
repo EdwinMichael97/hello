@@ -1,0 +1,302 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.container {
+    width: 80%;
+    margin: auto;
+}
+header {
+    background-image: url(../DSC_5919\ \(2\).jpg);
+    background-color: rgb(238, 199, 199);
+    background-blend-mode: luminosity;
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+.head h1{
+    font-size: 26px;
+    color: white;
+}
+span {
+    color: red;
+    font-style: italic;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+.wrapper ul {
+    display: flex;
+    padding-top: 5px;
+}
+.wrapper ul > li {
+    list-style: none;
+    padding-left: 15px;
+}
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+}
+.active {
+    border-bottom: 2px solid orangered;
+    color: yellow;
+
+}
+.imag {
+    display: none;
+}
+.content {
+    position: absolute;
+    width: 40%;
+    top: 28%;
+    left: 30%;
+    text-align: center;
+    line-height: 1.6;
+    color: white;
+}
+.content h2 {
+    font-size: 40px;
+}
+.showcase {
+    height: 70vh;
+    background: rgb(228, 225, 225);
+}
+.showcase .container{
+    display: flex;
+}
+.showcase .ol >div > img{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    padding: 20px 0 25px 0;
+}
+.peel {
+    padding: 0 0 20px 10px;
+    color:  rgb(119, 106, 106);
+}
+.fume {
+    padding: 12px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    font-size: 14px;
+    margin-left: 13px;
+}
+.conta{
+    background-color: rgb(32, 29, 54);
+    color: white;
+    padding-bottom: 30px;
+}
+.conta h4 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 18px;
+    color: white;
+    font-family: cursive;
+    padding-bottom: 20px;
+}
+.conta .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-row-gap: 10px;
+    grid-column-gap: 10px;
+}
+.conta .container div {
+    box-shadow: 0 0 5px 5px lightgray;
+    margin: 10px;
+    max-width: 85%;
+    min-height: 70px;
+}
+.conta .container div >img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 35%;
+}
+.conta .container div >h3 {
+    text-align: center;
+    font-size: 13px;
+    font-weight: bolder;
+    padding-right: 35px;
+}
+.conta .container div >p {
+    text-align: center;
+    font-size: 12px;
+    padding: 30px 15px;
+}
+.serve h4 {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 18px;
+    color: rgb(68, 77, 87);
+    font-family: cursive;
+}
+.serve p {
+    text-align: center;
+    line-height: 1.2;
+    font-size: 14px;
+    padding-top: 20px;
+    color: rgb(143, 131, 131);
+}
+.serve {
+    min-height: 60vh;
+    padding-bottom: 12px;
+}
+.ser {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    padding-top: 20px;
+}
+.ser h5 {
+    font-size: 18px;
+    color: rgb(93, 107, 121);
+    padding-top: 5px;
+}
+.ser > div > p {
+    padding: 5px 0 10px 0;
+}
+.ser > div {
+    text-align: center;
+    font-size: 15px;   
+}
+.CONTACT {
+    background-color: rgb(32, 29, 54);
+    color: white;
+    min-height: 50vh;
+}
+.CONTACT h4 {
+    text-align: center;
+    padding: 20px 0 ;
+    text-align: center;
+    font-size: 28px;
+    font-family: cursive;
+}
+.CONTACT p{
+    text-align: center;
+    line-height: 1.2;
+    font-size: 14px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+input  {
+    background:  rgb(32, 29, 54); 
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 8px;
+    font-size: 15px;
+    min-width: 400px;
+
+}
+button {
+    border: none;
+    background: rgb(32, 29, 54);
+    color: rgb(156, 30, 30);
+    cursor: pointer;
+   
+}
+.btn {
+   position: absolute;
+   left: 40%;
+   margin-top: 25px;
+}
+hr {
+    margin-top: 70px;
+}
+footer{
+    background:  rgb(32, 29, 54); 
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+}
+/* for responsiveness*/
+@media(max-width: 320px){
+    input  {
+        background:  rgb(32, 29, 54); 
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 8px;
+        font-size: 15px;
+
+    }
+    .nike{
+        min-width: 100px;
+    }
+    .btn {
+        position: absolute;
+        left: 30%;
+        margin-top: 25px;
+     }
+}
+
+@media(max-width: 360px){
+    input  {
+        background:  rgb(32, 29, 54); 
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 8px;
+        font-size: 15px;
+        min-width: 250px;
+    
+    }
+    .showcase {
+        height: 85vh;
+        background: rgb(228, 225, 225);
+    }
+    .content h2 {
+        font-size: 25px;
+    }
+}
+@media(max-width: 411px){
+    input  {
+        background:  rgb(32, 29, 54); 
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 8px;
+        font-size: 15px;
+        min-width: 300px;
+    
+    }
+    .content h2 {
+        font-size: 28px;
+    }
+    
+}
+@media(max-width: 414px){
+    input  {
+        background:  rgb(32, 29, 54); 
+        border: none;
+        border-bottom: 1px solid white;
+        padding: 8px;
+        font-size: 15px;
+        min-width: 310px;
+    }
+ 
+}
+@media(max-width: 1024px) {
+    
+    .showcase {
+        height: 500px;
+        background: rgb(228, 225, 225);
+    }
+    .serve {
+        min-height: 400px;
+        padding-bottom: 12px;
+    }
+}
+
+@media(max-width: 830px){
+    .wrapper ul {
+        display: none;
+    }
+}
